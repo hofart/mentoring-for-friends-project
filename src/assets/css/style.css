@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Nunito:wght@700;800&display=swap");
+
+:root {
+  --bg-gold: #c6996a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+nav a {
+  font-family: "Nunito", sans-serif;
+}
+
+@layer components {
+  .primary {
+    @apply rounded-lg bg-white text-base leading-4 font-semibold text-white;
+  }
+}
