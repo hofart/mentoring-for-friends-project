@@ -18,7 +18,7 @@ const { isLoading, products } = useProducts();
     </div>
 
     <div v-if="isLoading">
-      <h1>carregando ...</h1>
+      <h1>carregando produtos ...</h1>
     </div>
 
     <div v-else class="gap-[40px] grid grid-cols-6 grid-rows-2">
